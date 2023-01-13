@@ -20,21 +20,25 @@
     <div class="container-fluid main_header">
             <div class="row">
                 <div class="col-md-10 col-12 mx-auto">
-                    <div class="row">
-                        <div class="col-md-6 col-12 main_header_right align-items-center">
-
-                            <figure>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQes_e6_Ay4Sy8slG_ptVVL02A_m425rYv8pgcfQZ_HF_lVBXJt4H35fJyCVAYW-MiiBiA&usqp=CAU" class="avatar" alt="avatar">
-                            </figure>
-
+                    <div class="main_content">
+                        <form class="temp_form">
+                            <input type="text" placeholder="enter your city" autocomplete="off" id="cityname" >
+                            <input type="submit" value="search" id="submitbtn">
+                        </form>
+                        <div class="tempinfo">
+                            <div class="top_layer">
+                                <p id="day">Thursday</p>
+                                <p id="today_data">12 Jan</p>
+                            </div>
+                            <div class="main_layer">
+                                <p class="city_name">Get output here</p>
+                                <div class="middle_layer data_hide">
+                                    <p id="temp"><span>0</span> <sup>o</sup>C</p>
+                                    <p id="temp_status"><i class="fa-solid fa-cloud"></i></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-12 main_header_left">
-                            <p>Soumyadip Gantait</p>
-                            <h1>I am a <span class="span_tag"> MERN Stack </span> developer ❤️</h1>
-                            <a href="/weather"><button>About me</button></a>
-                        </div>
-                        
-                    </div>
+                    </div>     
                 </div>
             </div>
     </div>
